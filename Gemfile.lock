@@ -2,10 +2,10 @@ GEM
   remote: https://rubygems.org/
   specs:
     json (1.5.5)
-    rack (2.0.1)
-    rack-cache (1.7.0)
+    rack (2.2.2)
+    rack-cache (1.11.1)
       rack (>= 0.4)
-    redis (3.3.3)
+    redis (4.1.4)
     redis-rack-cache (1.2)
       rack-cache (~> 1.2)
       redis-store (~> 1.1.0)
@@ -20,4 +20,4 @@ DEPENDENCIES
   redis-rack-cache (= 1.2)
 
 BUNDLED WITH
-   1.13.6
+   1.17.3
